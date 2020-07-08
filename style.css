@@ -1,0 +1,39 @@
+/* all section */
+.smartphone-section, .laptop-section, .categories-section{
+    margin-top: 90px;
+}
+/* Carousel section */
+.buy-now-button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 9px 10px;
+  border: none;
+  cursor: pointer;
+}
+/* Smartphone Section */
+.smartphone-section a {
+  float: right;
+  text-decoration: none;
+  color: #ffc107 !important;
+}
+
+.card-item {
+  border: none;
+  box-shadow: 5px 5px 10px lightgrey;
+  border-radius: 10px;
+}
+/* Categories section */
+.categories-border {
+    border-bottom: 10px solid #FFBB24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card-item {
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.category-item {
+    padding: 20px 20px;
+}
