@@ -13,7 +13,7 @@
 <body>
     <!-- Navbar Section -->
     <nav class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#Navbar">
                 <img src="logo.png" alt="">
             </a>
@@ -99,15 +99,15 @@
                 <h4>Smartphone</h4>
             </div>
             <div class="col-2">
-                <a href="#">See All</a>
+                <a href="#" class="see-all-item">See All</a>
             </div>
         </div>
         <div class="card-group">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card card-item">
-                        <img src="phone/phone-1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-center">
+                            <img src="phone/phone-1.png" class="card-img-top" alt="...">
                             <h5 class="card-title">I Phone 11 pro</h5>
                             <p class="card-text">Some quick example of to build the card title.</p>
                             <h5>$999</h5>
@@ -117,8 +117,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card card-item">
-                        <img src="phone/phone-2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-center">
+                            <img src="phone/phone-2.png" class="card-img-top" alt="...">
                             <h5 class="Samsung Galaxy Note 10+">Card title</h5>
                             <p class="card-text">Some quick example of to build the card title</p>
                             <h5>$899</h5>
@@ -128,8 +128,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card card-item">
-                        <img src="phone/phone-3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body text-center">
+                            <img src="phone/phone-3.png" class="card-img-top" alt="...">
                             <h4 class="card-title">Nokia 7.1</h4>
                             <p class="card-text">Some quick example of to build the card title</p>
                             <h5>899</h5>
@@ -148,41 +148,47 @@
                 <h4>Laptop</h4>
             </div>
             <div class="col-2">
-                <a href="#">See All</a>
+                <a href="#" class="see-all-item">See All</a>
             </div>
         </div>
         <div class="card-group">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card card-item">
-                        <img src="laptop/product-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">I Phone 11 pro</h5>
-                            <p class="card-text">Some quick example of to build the card title.</p>
-                            <h5>$999</h5>
-                            <button class="buy-now-button">BUY NOW →</button>
+                            <img src="laptop/product-1.png" class="card-img-top" alt="...">
+                            <div class="text-center">
+                                <h5 class="card-title">I Phone 11 pro</h5>
+                                <p class="card-text">Some quick example of to build the card title.</p>
+                                <h5>$999</h5>
+                                <button class="buy-now-button">BUY NOW →</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-item">
-                        <img src="laptop/product-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="Samsung Galaxy Note 10+">Card title</h5>
-                            <p class="card-text">Some quick example of to build the card title</p>
-                            <h5>$899</h5>
-                            <button class="buy-now-button">BUY NOW →</button>
+                            <img src="laptop/product-2.png" class="card-img-top" alt="...">
+                            <div class="text-center">
+                                <h5 class="Samsung Galaxy Note 10+">Card title</h5>
+                                <p class="card-text">Some quick example of to build the card title</p>
+                                <h5>$899</h5>
+                                <button class="buy-now-button">BUY NOW →</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-item">
-                        <img src="laptop/product-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title">Nokia 7.1</h4>
-                            <p class="card-text">Some quick example of to build the card title</p>
-                            <h5>899</h5>
-                            <button class="buy-now-button">BUY NOW →</button>
+                            <img src="laptop/product-3.png" class="card-img-top" alt="...">
+                            <div class="text-center">
+                                <h4 class="card-title">Nokia 7.1</h4>
+                                <p class="card-text">Some quick example of to build the card title</p>
+                                <h5>899</h5>
+                                <button class="buy-now-button">BUY NOW →</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,19 +207,28 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="card card-item category-item">
-                            <img src="Categories/bag.png" class="card-img-top" alt="...">
+                        <div class="card card-item">
+                            <div class="card-body">
+                                <img src="Categories/bag.png" class="card-img-top d-block w-100">
+                                <h6 class="text-center">Bag</h6>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex justify-content-center mb-4">
-                            <div class="card card-item category-item">
-                                <img src="Categories/perfume.png" alt="">
+                            <div class="card card-item">
+                                <div class="card-body">
+                                    <img src="Categories/perfume.png" class="d-block w-100" alt="">
+                                    <h6 class="text-center">Beauty</h6>
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <div class="card card-item category-item">
-                                <img src="Categories/shoe.png" alt="">
+                            <div class="card card-item">
+                                <div class="card-body">
+                                    <img src="Categories/shoe.png" class="d-block w-100" alt="">
+                                    <h6 class="text-center">Shoe</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -224,9 +239,8 @@
             </div>
         </div>
     </section>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!-- js bootstrap -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -236,5 +250,9 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 </body>
+<!-- footer section -->
+<footer class="text-center">
+    <p> ©Hot Gadgets Ltd. All rights reserved. </p>
+</footer>
 
 </html>
